@@ -36,7 +36,7 @@ app.use(
 app.use(passport.initialize()) // This is used to initialize our passport
 app.use(passport.session()) // This is used to store our session information in our database. 
 
-app.use(flash()) // This is used to use flash messages.
+app.use(flash()) // This is used to use flash messages. E.g. If we put the wrong password in, a flash message comes up saying you have put in an invalid password. 
   
 app.use('/', mainRoutes) // This is used to handle our main routes.
 app.use('/todos', todoRoutes) // This is used to handle our todo routes.
