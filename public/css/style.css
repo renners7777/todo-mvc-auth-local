@@ -1,6 +1,32 @@
-h1{
-    color: red;
+* {
+    box-sizing: border-box;
 }
+
+html {
+    background-image: url("/images/eden-constantino-bTukYI4DjOs-unsplash.jpg");
+    background-size:cover;
+    color:beige;
+}
+    
+h1{
+    color:black;
+}
+
+input {
+    padding: 10px 20px;
+}
+
+.btn {
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+    font-size: 1.5em;
+}
+
 .completed{
     text-decoration: line-through;
     color: gray;
